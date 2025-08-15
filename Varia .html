@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<img src="C:\Users\Zeenal-Heenal\OneDrive\Desktop\010.png" alt="C:\Users\Zeenal-Heenal\OneDrive\Desktop\010.png" width="1100" height="400">
+ <!DOCTYPE html>
+<html>
+<body style="background-color: #ffe5b4;">
+<html>
+<head>
+  <title>Seva Report</title>
+</head>
+ 
+<body style="background-color: #f0f8ff;">
+
+<h1>Satlok Ashram Tahesil Seva Report </h1>
+
+<link rel="stylesheet" href="style.css">
+</html>
+<head>
+  <title>Date Input Example</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      font-size: 16px;
+      padding: 20px;
+    }
+
+    label {
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input[type="date"] {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+       <br><br>
+  </style>
+</head>
+<body>
+  <br><br>
+  <title>Multi-Level Cascading Dropdown</title>
+  <style>
+    select { margin: 10px; padding: 10px; }
+  </style>
+  <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  </style>
+
+</head>
+<body>
+
+  <h2> Panchmahal Seva Report</h2>
+
+</head>
+
+<body>
+
+  <label for="date">Select Date:</label>
+  <input type="date" id="date" name="date">
+  
+  <body>
+
+  <select id="country" onchange="populateStates()">
+    <option value="">Select Country</option>
+  </select>
+  <style>
+  body {
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  </style>
+
+  <select id="state" onchange="populateDistricts()">
+    <option value="">Select State</option>
+  </select>
+
+  <select id="district" onchange="populateTehsils()">
+    <option value="">Select District</option>
+  </select>
+  
+<br><br>
+
+  <select id="tehsil" onchange="populateTeams()">
+    <option value="">Select Tehsil</option>
+  </select>
+
+  <select id="team" onchange="populateMembers()">
+    <option value="">Select Team</option>
+  </select>
+
+  <select id="member">
+    <option value="">Select Member</option>
+  </select>
+ 
+     <br><br>
+
+     <label for="teamSize">आप की टीम मे कितने भगत / भगतमती है?</label>
+     <input type="number" id="teamSize" name="teamSize" min="1" max="100" required>
+
+     <br><br>
+
+     <label for="teamSize">आप की टीम मे कितने भगत / भगतमती ने सेवा की है?</label>
+     <input type="number" id="teamSize" name="teamSize" min="1" max="100" required>
+
+     <br><br>
+
+     <label for="teamSize">आप की टीम मे आज कितने भगत / भगतमती एब्सेंट है?</label>
+     <input type="number" id="teamSize" name="teamSize" min="1" max="100" required>
+
+      <br><br>
+<html>
+<head>
+  <title>Seva Dropdown Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    select {
+      padding: 6px;
+      margin-bottom: 10px;
+      width: 200px;
+      font-size: 15px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <label>🛕 Regular Satsang Seva:</label><br><br>
+    <select id="satsang1"></select><br>
+    <select id="satsang2"></select><br>
+    <select id="satsang3"></select>
+  </div>
+  <div class="section">
+    <label>📱 Social Media Seva:</label><br><br>
+    <select id="social1"></select><br>
+    <select id="social2"></select><br>
+    <select id="social3"></select>
+  </div>
+<html>
+<head>
+  <title>Seva Reporting</title>
+  <style>
+    select {
+      width: 100%;
+      max-width: 500px;
+      padding: 8px;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 20px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Team Member Selection -->
+  <label for="teamMember">Team Member:</label>
+  <select id="teamMember" onchange="updateNonSevaDropdown()">
+    <option value="">-- Select Team Member --</option>
+    <option value="Bhavnadasi">Bhavnadasi</option>
+    <option value="Krishnadasi">Krishnadasi</option>
+    <option value="Nayandas">Nayandas</option>
+    <option value="Dharmeshdas">Dharmeshdas</option>
+    <!-- Add more team members as needed -->
+  </select>
+  <label for="nonSevaMembers">Seva Na Karne Wale Bhagat / Bhagatmati K ame :</label>
+  <select id="nonSevaMembers" multiple size="8">
+    <!-- Options will be populated dynamically -->
+  </select>
+  <script>
+    const data = {
+      India: {
+        Gujarat: {
+          PanchMahals: {
+            Kalol: {
+              Bhavanadasi: [
+                "Kamaladasi", "Kailashdasi", "Kishnadasi", "Payaldasi", "Tanvidas",
+                "Savitadasi(Kalol)", "Sushiladasi(Kalol)", "Jinaldaasi(Kalol)",
+                "Pujadasi", "Pinnacle Dasi Halol", "Sheetaldasi Ghoghamba",
+                "Sudhadasi Kalol", "Varshadasi Halol"
+              ],
+              Krishnadasi: [
+                "Jyotidasi(Ghoghamba)", "Rajnidasi(Halol)", "Kasidasi",
+                "Bhavanadasi(Kalol)", "Gitadasi", "Jinaldasi(Halol)",
+                "Minadasi(Kalyana)", "Minadasi(Godhra)", "Urmiladasi",
+                "Aashadasi", "Kailashdasi Godhra", "Sadhanadasi Halol",
+                "Mayadasi Kalol", "Kishanadasi Godhra"
+               ],
+               Nayandas: [
+                "Shantilaldas", "MahipalDas", "DharmeshDas", "Jhondas"
+               ],
+               Dharmeshdas: [
+                "Ashishdas", "ManojDas", "NayanDas", "Arvind Das"
+               ]
+            },
+            Godhra: {
+              Babudas: [
+                "Jitendra Das", "Ashok Das", "Janadas", "Manoj Das", "Mukeshdas",
+                "Mukundandas", "Doltadas", "Tejasdas", "Narendradas", "Babudas",
+                "Bharatdas", "Jagadishdas", "Prakashdas", "Shankardas",
+                "Satishdas", "Rakeshdas"
+              ]
+            },    
+             Halol: {
+               Deepakdas: [
+                "Kanudas", "Bhagwandas", "Arjundas", "Jaydas", "Rajudas"
+               ],
+               Jaydas: [
+                "Maheshdas", "Sahdevdas", "Jagadishdas", "Deepak Das", 
+               ]
+            },    
+             MorvaHadaf: {
+               Nileshdas: [
+                "Balwantdas", "Chandudas", "fatehsinghdas", "Sahdevdas", "Dharmeshdas", "Rameshdas"
+                ],
+             Balvantdas: [
+                "Nileshdas", "Kanudas", "Vinudas", "Babudas", "Kadudas", "Purushottamdas"
+                ]
+             }, 
+              Ghoghamba: {
+                Bharatdas: [
+                "Ishwardas", "AshokDas", "Arvinddas", "Girishdas", "Sanjaydas", "Bharatdas"
+              ]
+            },  
+              Shahera: {
+               Nileshdas: [
+              "Hasmukhdas", "Pruthvidas", "BhalasihDas", "RameshDas", "ShankarDas", "Natudas", "Mithadas", "MangaDas",
+              "Rajesh Das", "Pankajdas", "Nileshdas", "Laldas"
+              ],
+               Hsamukhdas : [
+              "chandudas", "AlpeshDas", "MotiDas", "Rajudas", "Artadas", "Arvatadas", "Arvind Das", "Kirandas",
+              "Tinadas", "Bhalladas", "Fuladas"
+               ]
+             }, 
+          Jambughoda: {},
+          },
+          Ahmedabad: {}, Amreli: {}, Anand: {}, Aravalli: {}, Banaskantha: {}, Bharuch: {},
+          Bhavnagar: {}, Botad: {}, Chhotaudepur: {}, Dahod: {}, Dangs: {}, Devbhumi_Dwarka: {},
+          Gandhinagar: {}, Gir_Somnath: {}, Jamnagar: {}, Junagadh: {}, Kachchh: {}, Kheda: {},
+          Mahesana: {}, Mahisagar: {}, Morbi: {}, Narmada: {}, Navsari: {}, Patan: {},
+          Porbandar: {}, Rajkot: {}, Sabarkantha: {}, Surat: {}, Surendranagar: {},
+          Tapi: {}, Vadodara: {}, Valsad: {}
+        },
+        Maharashtra: {}
+      }
+    };
+    function populateDropdown(selectId, options) {
+      const select = document.getElementById(selectId);
+      select.innerHTML = `<option value="">Select ${selectId.charAt(0).toUpperCase() + selectId.slice(1)}</option>`;
+      options.forEach(opt => {
+        const option = document.createElement("option");
+        option.value = opt;
+        option.text = opt;
+        select.appendChild(option);
+      });
+    }
+
+    function populateStates() {
+      const country = document.getElementById("country").value;
+      if (country && data[country]) {
+        populateDropdown("state", Object.keys(data[country]));
+      }
+      ["district", "tehsil", "team", "member"].forEach(id => populateDropdown(id, []));
+    }
+
+    function populateDistricts() {
+      const country = document.getElementById("country").value;
+      const state = document.getElementById("state").value;
+      if (country && state && data[country][state]) {
+        populateDropdown("district", Object.keys(data[country][state]));
+      }
+      ["tehsil", "team", "member"].forEach(id => populateDropdown(id, []));
+    }
+
+    function populateTehsils() {
+      const country = document.getElementById("country").value;
+      const state = document.getElementById("state").value;
+      const district = document.getElementById("district").value;
+      if (country && state && district && data[country][state][district]) {
+        populateDropdown("tehsil", Object.keys(data[country][state][district]));
+      }
+      ["team", "member"].forEach(id => populateDropdown(id, []));
+    }
+
+    function populateTeams() {
+      const country = document.getElementById("country").value;
+      const state = document.getElementById("state").value;
+      const district = document.getElementById("district").value;
+      const tehsil = document.getElementById("tehsil").value;
+      if (country && state && district && tehsil && data[country][state][district][tehsil]) {
+        populateDropdown("team", Object.keys(data[country][state][district][tehsil]));
+      }
+      populateDropdown("member", []);
+    }
+
+    function populateMembers() {
+      const country = document.getElementById("country").value;
+      const state = document.getElementById("state").value;
+      const district = document.getElementById("district").value;
+      const tehsil = document.getElementById("tehsil").value;
+      const team = document.getElementById("team").value;
+      if (country && state && district && tehsil && team && data[country][state][district][tehsil][team]) {
+        populateDropdown("member", data[country][state][district][tehsil][team]);
+      }
+    }
+    function populateDropdowns(idArray, options) {
+      idArray.forEach(id => {
+        const dropdown = document.getElementById(id);
+        dropdown.innerHTML = `<option value="">Select</option>`;
+        options.forEach(opt => {
+          const option = document.createElement("option");
+          option.value = opt;
+          option.text = opt;
+          dropdown.appendChild(option);
+        });
+      });
+    }
+
+    // Populate both sets
+    populateDropdowns(["satsang1", "satsang2", "satsang3"], ["👍 Yes", "❌ No"]);
+    populateDropdowns(["social1", "social2", "social3"], ["✅ Done", "❌ Not Done"]);
+
+    const nonSevaData = {
+      "Bhavnadasi": [
+        "Kamaladasi", "Kailashdasi", "Kishnadasi", "Payaldasi", "Tanvidas",
+        "Savitadasi(Kalol)", "Sushiladasi(Kalol)", "Jinaldaasi(Kalol)",
+        "Pujadasi", "Pinnacle Dasi Halol", "Sheetaldasi Ghoghamba",
+        "Sudhadasi Kalol", "Varshadasi Halol"
+      ],
+      "Krishnadasi": [
+        "Jyotidasi(Ghoghamba)", "Rajnidasi(Halol)", "Kasidasi",
+        "Bhavanadasi(Kalol)", "Gitadasi", "Jinaldasi(Halol)",
+        "Minadasi(Kalyana)", "Minadasi(Godhra)", "Urmiladasi",
+        "Aashadasi", "Kailashdasi Godhra", "Sadhanadasi Halol",
+        "Mayadasi Kalol", "Kishanadasi Godhra"
+      ],
+       "Nayandas" : [
+        "Shantidas", "MahipalDas", "DharmeshDas", "Jhondas" 
+      ],
+       "Dharmeshdas" : [
+        "Ashishdas", "ManojDas", "NayanDas", "Arvind Das"
+      ],
+    };
+
+    function updateNonSevaDropdown() {
+      const teamMember = document.getElementById("teamMember").value;
+      const nonSevaDropdown = document.getElementById("nonSevaMembers");
+
+      // Clear existing options
+      nonSevaDropdown.innerHTML = "";
+
+      if (nonSevaData[teamMember]) {
+        nonSevaData[teamMember].forEach(name => {
+          const option = document.createElement("option");
+          option.value = name;
+          option.textContent = name;
+          nonSevaDropdown.appendChild(option);
+        });
+      }
+    }
+    // Initialize country dropdown
+    window.onload = () => {
+      populateDropdown("country", Object.keys(data));
+    };
+
+  </script>
+
+</body>
+</html>
